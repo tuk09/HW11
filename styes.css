@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.suminfo {
+    text-align: center;
+    color: aquamarine;
+}
+
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px dashed ;
+    /* color: #ffb6c1; */
+    color: rgb(101, 103, 103);
+  }
+
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 24px;
+  }
+
+  .counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 32px;
+    /* color: #ffb6c1;  */
+    color: aquamarine;
+  }
+  
+  .text-center{
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  
+  
+
+ 
